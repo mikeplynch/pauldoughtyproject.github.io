@@ -1,6 +1,4 @@
 $(document).ready(function(){
-	console.log("Hello! test");
-	
 	/* affix the navbar after scroll below header */
     $(".navbar").affix({offset: {top: $(".top").outerHeight(true)} });
 	
